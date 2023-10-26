@@ -10,33 +10,37 @@
     <title>Mauro Pezze</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <!-- Add the CSS link -->
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@2.9.3/dist/umd/popper.min.js"></script>
+    <!-- Add the JavaScript and Popper.js links (for dropdowns and other interactive components) -->
+    <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
     <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
-
-<!-- Navigation -->
-<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-    <div class="container" style="margin-left: 15%">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="services.html">Services</a></li>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="margin-left: 15%">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html">Services</a>
+                </li>
             </ul>
+
         </div>
     </div>
 </nav>
@@ -50,164 +54,242 @@
         <div class="col-md-7" style="height: 200vh;">
 
             <!-- Main Image -->
-            <div class="row">
-                <div class="col-xs-4" style="padding-left: 0; margin-top: 3%">
-                    <img class="img-responsive" src="img/mauro.jpg" width="400" height="60" alt=""
-                         style="float: left; margin-left: 1%">
-                </div>
 
-                <div style="margin-top:3%; text-align:justify;">
+            <div class="col-sm-4 mt-5 me-3">
+                <img class="img-fluid me-3" src="img/mauro.jpg" alt=""
+                     style="float: left">
+            </div>
 
-
-                    <p>
-                        Mauro Pezzè is
-                        Professor of Software Engineering at the <a href="http://www.disco.unimib.it/" class="urlextern"
-                                                                    title="http://www.disco.unimib.it/" rel="nofollow">Università
-                        di Milano Bicocca</a> and at the <a href="https://www.inf.usi.ch/" class="urlextern"
-                                                            title="http://www.inf.usi.ch/" rel="nofollow">Università
-                        della Svizzera italiana</a> where he has served as dean of the faculty of informatics from 2009
-                        to 2013.
-                    </p>
-
-                    <p>
-                        He is the leader of the <a href="http://star.inf.usi.ch/" class="urlextern"
-                                                   title="http://star.inf.usi.ch/" rel="nofollow">STAR</a> research
-                        group of the Università della Svizzera italiana, and the director of the <a
-                            href="http://www.lta.disco.unimib.it" class="urlextern"
-                            title="http://www.lta.disco.unimib.it" rel="nofollow">LTA</a> research laboratory of the
-                        Università di Milano Bicocca.
-                    </p>
-
-                    <p>
-                        He received his PhD degree in computer science from <a href="http://www.polimi.it"
-                                                                               class="urlextern"
-                                                                               title="http://www.polimi.it"
-                                                                               rel="nofollow">Politecnico di Milano</a>
-                        (Italy).
-                    </p>
-
-                    <p>
-                        Dr. Pezzè is serving as editor in chief of <a href="https://tosem.acm.org/" class="urlextern"
-                                                                      title="https://tosem.acm.org/" rel="nofollow">ACM
-                        Transactions on Software Engineering and Methodologies</a> since 2019. He has served as
-                        associate editor of <a href="https://www.computer.org/web/tse" class="urlextern"
-                                               title="https://www.computer.org/web/tse" rel="nofollow">IEEE Transactions
-                        on Software Engineering</a> from 2013 to 2017, of <a href="http://tosem.acm.org"
-                                                                             class="urlextern"
-                                                                             title="http://tosem.acm.org"
-                                                                             rel="nofollow">ACM Transactions on Software
-                        Engineering and Methodologies</a> from 2006 to 2013, and of the <a
-                            href="https://onlinelibrary.wiley.com/journal/10991689" class="urlextern"
-                            title="https://onlinelibrary.wiley.com/journal/10991689" rel="nofollow">journal on Software
-                        Testing, Verification and Reliability (STVR)</a> in 2018.
-                        He has served as general chair of the 2013 ACM International Symposium on Software Testing and
-                        Analysis (ISSTA), technical program chair of the 2006 ACM International Symposium on Software
-                        Testing and Analysis (ISSTA), program co-chair of the <a href="http://www.icse-conferences.org/"
-                                                                                 class="urlextern"
-                                                                                 title="http://www.icse-conferences.org/"
-                                                                                 rel="nofollow">2012 International
-                        Conference on Software Engineering (ICSE)</a>.
-                    </p>
-
-                    <p>
-                        He has been technical lead for several multi-year international research and development
-                        projects in close collaboration with leading European information and communication companies.
-                        <br>
-
-                        <br>
-
-                        <br>
+            <div class="col-sm-12" style=" text-align:justify;">
 
 
-                    </p>
+                <p>
+                    Mauro Pezzè is
+                    Professor of Software Engineering at the <a href="http://www.disco.unimib.it/"
+                                                                class="link-primary link-underline-opacity-0 link-underline-opacity-0"
+                                                                title="http://www.disco.unimib.it/" rel="nofollow">Università
+                    di Milano Bicocca</a> and at the <a href="https://www.inf.usi.ch/"
+                                                        class="link-primary link-underline-opacity-0"
+                                                        title="http://www.inf.usi.ch/" rel="nofollow">Università
+                    della Svizzera italiana</a> where he has served as dean of the faculty of informatics from 2009
+                    to 2013.
+                </p>
 
-                </div>
+                <p>
+                    He is the leader of the <a href="http://star.inf.usi.ch/"
+                                               class="link-primary link-underline-opacity-0"
+                                               title="http://star.inf.usi.ch/" rel="nofollow">STAR</a> research
+                    group of the Università della Svizzera italiana, and the director of the <a
+                        href="http://www.lta.disco.unimib.it" class="link-primary link-underline-opacity-0"
+                        title="http://www.lta.disco.unimib.it" rel="nofollow">LTA</a> research laboratory of the
+                    Università di Milano Bicocca.
+                </p>
+
+                <p>
+                    He received his PhD degree in computer science from <a href="http://www.polimi.it"
+                                                                           class="link-primary link-underline-opacity-0"
+                                                                           title="http://www.polimi.it"
+                                                                           rel="nofollow">Politecnico di Milano</a>
+                    (Italy).
+                </p>
+
+                <p>
+                    Dr. Pezzè is serving as editor in chief of <a href="https://tosem.acm.org/"
+                                                                  class="link-primary link-underline-opacity-0"
+                                                                  title="https://tosem.acm.org/" rel="nofollow">ACM
+                    Transactions on Software Engineering and Methodologies</a> since 2019. He has served as
+                    associate editor of <a href="https://www.computer.org/web/tse"
+                                           class="link-primary link-underline-opacity-0"
+                                           title="https://www.computer.org/web/tse" rel="nofollow">IEEE Transactions
+                    on Software Engineering</a> from 2013 to 2017, of <a href="http://tosem.acm.org"
+                                                                         class="link-primary link-underline-opacity-0"
+                                                                         title="http://tosem.acm.org"
+                                                                         rel="nofollow">ACM Transactions on Software
+                    Engineering and Methodologies</a> from 2006 to 2013, and of the <a
+                        href="https://onlinelibrary.wiley.com/journal/10991689"
+                        class="link-primary link-underline-opacity-0"
+                        title="https://onlinelibrary.wiley.com/journal/10991689" rel="nofollow">journal on Software
+                    Testing, Verification and Reliability (STVR)</a> in 2018.
+                    He has served as general chair of the 2013 ACM International Symposium on Software Testing and
+                    Analysis (ISSTA), technical program chair of the 2006 ACM International Symposium on Software
+                    Testing and Analysis (ISSTA), program co-chair of the <a href="http://www.icse-conferences.org/"
+                                                                             class="link-primary link-underline-opacity-0"
+                                                                             title="http://www.icse-conferences.org/"
+                                                                             rel="nofollow">2012 International
+                    Conference on Software Engineering (ICSE)</a>.
+                </p>
+
+                <p>
+                    He has been technical lead for several multi-year international research and development
+                    projects in close collaboration with leading European information and communication companies.
+                    <br>
+
+                    <br>
+
+                    <br>
+
+
+                </p>
 
             </div>
+            <hr>
+
+            <dl class="row">
+                <h5><a href="http://star.inf.usi.ch/ " class="link-secondary link-underline-opacity-0">Software Testing
+                    and Analysis Research
+                    group</a></h5>
+
+                <dt class="col-sm-2">Address</dt>
+                <dd class="col-sm-9">Università della Svizzera italiana <br>
+                    Faculty of Informatics <br>
+                    Via Buffi, 13 <br>
+                    6900 Lugano (Switzerland) <br></dd>
+                <dt class="col-sm-2"> Phone</dt>
+                <dd class="col-sm-9">0041-58-666-4658</dd>
+                <dt class="col-sm-2"> Fax</dt>
+                <dd class="col-sm-9">0041-58-666-4536</dd>
+                <dt class="col-sm-2"> Email</dt>
+                <dd class="col-sm-9">mauro dot pezze at usi dot ch</dd>
+            </dl>
+
+            <hr>
+
+            <dl class="row">
+                <h5><a href="http://www.lta.disco.unimib.it/" class="link-secondary link-underline-opacity-0">Software
+                    Testing and Analysis Research group</a>
+                </h5>
+
+                <dt class="col-sm-2">Address</dt>
+                <dd class="col-sm-9">Università degli studi di Milano Bicocca
+                    Department of Informatics, Systems and Communication <br>
+                    Viale Sarca, 223<br>
+                    Milano (Italy) <br>
+
+                <dt class="col-sm-2"> Phone</dt>
+                <dd class="col-sm-9">0039-02-6448-7882</dd>
+                <dt class="col-sm-2"> Fax</dt>
+                <dd class="col-sm-9">0039-02-6448-7805</dd>
+                <dt class="col-sm-2"> Email</dt>
+                <dd class="col-sm-9">pezze at disco dot unimib dot it</dd>
+            </dl>
+
+
         </div>
 
         <!-- Contact Info on the Sidebar -->
         <div class="col-md-3">
-            <div class=" panel panel-default" style="margin-top:2%">
-                <div class="panel-heading text-center"><strong>Info</strong></div>
+            <div class=" card mt-5" style="margin-top:2%">
+                <div class="card-header text-center"><strong>Info</strong></div>
                 <div style="margin:4%">
                     <div style="font-family: 'Oswald', sans-serif; font-size: 32px;">
                         <b>Mauro Pezzè</b>
                     </div>
                     <br>
-                    <p><b>mauro dot pezze at usi.ch</b><br>
-                    <p>Professor at: <br>
+                    <p><b>Professor at: </b><br>
 
-                        • Università della svizzera italiana<br>
-                        • Schaffhausen Institute of Technology
-                    </p>
+                    <dl class="ms-2">
+                        <div class="row">
+                            <td class="col">•</td>
+                            <dd class="col">
+                                Università della svizzera italiana
+                            </dd>
+                        </div>
+                        <div class="row">
+                            <td class="col">•</td>
+                            <dd class="col">
+                                Schaffhausen Institute of Technology
+                            </dd>
+                        </div>
+                    </dl>
                 </div>
             </div>
 
 
             <!-- Links on the Sidebar -->
-            <div class="panel panel-default" style="margin-top:2%">
-                <div class="panel-heading text-center"><strong>Links</strong></div>
+            <div class="card mt-2" style="margin-top:2%">
+                <div class="card-header text-center"><strong>Links</strong></div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <i class="fa-solid fa-group-arrows-rotate"></i>
+                        <a href="https://star.inf.usi.ch" class="ms-2 link-primary link-underline-opacity-0">
+                            Research Group
+                        </a>
+                    </li>
+                    <li class="list-group-item">
 
-                <li class="list-group-item">
-                    <a href="https://star.inf.usi.ch">
-                        Research Group
-                    </a>
-                </li>
-                <li class="list-group-item">
+                        <i class="fa-brands fa-google"></i>
+                        <a href="https://scholar.google.com/citations?user=zhbGyEYAAAAJ&hl=en "
+                           class="link-primary link-underline-opacity-0 ms-2">
+                            Google Scholar
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/mauro-pezz%C3%A8-0164884/"
+                           class="link-primary link-underline-opacity-0 ms-2">
+                            LinkedIn
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fas fa-external-link-square-alt"></i>
 
-
-                    <a href="https://scholar.google.com/citations?user=zhbGyEYAAAAJ&hl=en">
-                        Google Scholar
-                    </a>
-                </li>
-                <li class="list-group-item">
-                    <a href="https://www.linkedin.com/in/mauro-pezz%C3%A8-0164884/">
-                        LinkedIn
-                    </a>
-                </li>
-                <li class="list-group-item">
-                    <a href="http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/p/Pezz=egrave=:Mauro.html">
-                        DBLP
-                    </a>
-                </li>
+                        <a href="http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/p/Pezz=egrave=:Mauro.html"
+                           class="link-primary link-underline-opacity-0 ms-2">
+                            DBLP
+                        </a>
+                    </li>
+                </ul>
             </div>
 
 
             <!-- Links on the Sidebar -->
-            <div class="panel panel-default" style="margin-top:2%">
-                <div class="panel-heading text-center"><strong>Book</strong></div>
+            <div class="card mt-2" style="margin-top:2%">
+                <div class="card-header text-center"><strong>Book</strong></div>
                 <!--                <h3 class="text-center">Book</h3>-->
-                <div class="text-center" style="margin:2%">
+                <div class="text-center col-sm-8 mx-auto d-block" style="margin:2%">
                     <a href="http://ix.cs.uoregon.edu/~michal/book/">
 
-                        <img src="img/book.png">
+                        <img src="img/book.jpg" class="img-fluid mx-auto d-block mt-3">
                     </a>
                 </div>
-
             </div>
+
+
+            <!-- Editorial Boards -->
+            <div class="card mt-2" style="margin-top:2%">
+                <div class="card-header text-center"><strong>Editorial Boards</strong></div>
+                <div class="text-center col-sm-10 mx-auto d-block" style="margin:2%">
+                    <a href="https://www.computer.org/csdl/journal/ts">
+                        <img src="img/tse.png" class="img-fluid mx-auto d-block mt-3">
+                    </a>
+                    Associate editor (2013-2018)
+                    <a href="http://tosem.acm.org/">
+                        <img src="img/tosem.png" class="img-fluid mx-auto d-block mt-3">
+                    </a>
+                    Associate editor (2006-2013)<br>
+                    Editor in Chief (2019 - today)
+                </div>
+            </div>
+
+                  <!-- Conference organization -->
+            <div class="card mt-2" style="margin-top:2%">
+                <div class="card-header text-center"><strong>Conference organization</strong></div>
+                <div class="text-center col-sm-10 mx-auto d-block" style="margin:2%">
+                    <a href="http://www.ifi.uzh.ch/icse2012/">
+                        <img src="img/icse-2012.png" class="img-fluid mx-auto d-block mt-3">
+                    </a>
+                    <a href="http://issta2013.inf.usi.ch/ ">
+                        <img src="img/issta-2013.png" class="img-fluid mx-auto d-block mt-3">
+                    </a>
+                </div>
+            </div>
+
+
         </div>
 
 
     </div>
-    <!-- Publications -->
-    <!--
-    <div class="col-md-8" style="height: 100vh;">
-        <h2 id="publications">Publications</h2>
 
-        <strong>Peer-reviewed</strong><br/>
-        <ul>
-            <li class="paper" words="add, your, keywords, here"><a href="#">Full title</a> Names of the authors</li>
-        </ul>
-
-        <strong>Technical Reports</strong><br/>
-        <ul>
-            <li class="paper" words="add, your, keywords, here"><a href="#">Full title</a>. Details of the report
-            </li>
-        </ul>
-        </div>
-    </div>
-    -->
 
 </div>
 <!-- /.container -->
